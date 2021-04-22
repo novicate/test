@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T08:49:36.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="qtZa0yqV56vEpvVjnU2m" version="14.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T08:51:24.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36" etag="pEv-rVIRpzhr2OgUD_HM" version="14.6.5" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
             <mxPoint x="380" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sjcobn4qy7Enl9d4QnZK-10" value="每次调用支付接口，支付网关会生成新的支付记录。&lt;br&gt;支付网关需要的信息，在调支付接口时入参" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sjcobn4qy7Enl9d4QnZK-10" value="每次调用支付接口，支付网关会生成新的支付记录。&lt;br&gt;支付网关需要的信息，在调支付接口时入参&lt;br&gt;【接口1：申请支付接口】" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="460" y="160" width="310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="sjcobn4qy7Enl9d4QnZK-13" value="返回支付渠道的支付页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
@@ -186,7 +186,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sjcobn4qy7Enl9d4QnZK-32" value="分账必须的信息，在调申请分账接口时入参" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="sjcobn4qy7Enl9d4QnZK-32" value="分账必须的信息，在调申请分账接口时入参。&lt;br&gt;【接口2：分账接口】" style="shape=note;whiteSpace=wrap;html=1;size=14;verticalAlign=top;align=left;spacingTop=-6;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="540" y="480" width="320" height="50.5" as="geometry" />
         </mxCell>
         <mxCell id="sjcobn4qy7Enl9d4QnZK-34" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="sjcobn4qy7Enl9d4QnZK-29" target="sjcobn4qy7Enl9d4QnZK-27">
